@@ -35,6 +35,11 @@ Regular expressions into finite automata https://pdf.sciencedirectassets.com/271
 
 Minimizing NFA’s and Regular Expressions http://ggramlich.github.io/Publications/approximationSTACS05.pdf
 
+Contrary to the problem of minimizing dfa’s, which is efficiently possible, it is well known
+that nfa or regular expression minimization is computationally hard, namely PSPACE-complete
+[10]. Jiang and Ravikumar [7] show moreover that the minimization problem for nfa’s or regular
+expressions remains PSPACE-complete, even when specifying the regular language by a dfa.
+
 Mathematical Foundations of Automata Theory https://www.irif.fr/~jep/PDF/MPRI/MPRI.pdf
 
 Is finding the minimum regular expression an NP-complete problem? https://cstheory.stackexchange.com/questions/1854/is-finding-the-minimum-regular-expression-an-np-complete-problem
