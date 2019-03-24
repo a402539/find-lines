@@ -17,5 +17,6 @@ This is simplified to
 
 (?:a-b|a-c)
 
-See at https://a402539.github.io/find-lines/
+See at https://a402539.github.io/find-lines/ for simplification on example above
 
+Rule of simplification (for the case of literals): if A.indexOf(B) >= 0 then A to be excluded as superseded by B
