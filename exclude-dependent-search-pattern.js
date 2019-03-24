@@ -1,5 +1,6 @@
 ﻿var res = [];
 var m = ["aa-b", "a-b", "a-bb", "a-c"];
+/*
 m.map((a, i) => {
     m.map((b, j) => {
 		if (i >= j) {
@@ -21,7 +22,8 @@ m.map((a, i) => {
 	});
 });
 console.log("res = ",res)
-var textOutput = "initial list of patterns is " + JSON.stringify(m, null, 2) + "<br>";
+*/
+var textOutput = "initial list of patterns is " + JSON.stringify(m) + "<br>";
 var res2 = new Set();
 m.map((a, i) => {
     m.map((b, j) => {
@@ -40,5 +42,5 @@ m.map((a, i) => {
 console.log("res2 = ",res2);
 var resCont = document.getElementsByClassName("res")[0];
 resCont.innerHTML = textOutput + 
-	"patterns to be excluded: " + JSON.stringify(Array.from(res2), null, 2) + "<br>" +
+	"patterns to be excluded: " + JSON.stringify(Array.from(res2)) + "<br>" +
 	"patterns list resulted " + JSON.stringify(m.filter(a=>!res2.has(a)));
