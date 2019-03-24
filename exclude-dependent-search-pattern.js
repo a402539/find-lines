@@ -20,24 +20,31 @@ m.map((a, i) => {
 		res.push(arr);
 	});
 });
-console.log("res = ",res);
-var res2 = {};
+console.log("res = ",res)
+var textOutput = "initial list of patterns is " + JSON.stringify(m, null, 2) + "<br>";
+var res2 = new Set();
 m.map((a, i) => {
     m.map((b, j) => {
 		if (i >= j) {
 			return; 
 		}
 		if (a.indexOf(b) >= 0) {
-			res2[a] = true;
+			res2.add(a);
+			textOutput += '"'+a+'" to be excluded as superseded by "'+b+'"<br>';
 		} else if (b.indexOf(a) >= 0) {
-			res2[b] = true;
+			res2.add(b);
+			textOutput += '"'+b+'" to be excluded as superseded by "'+a+'"<br>';
 		}
 	});
 });
 console.log("res2 = ",res2);
+var resCont = document.getElementsByClassName("res")[0];
+resCont.innerHTML = textOutput + "patterns to be excluded: " + JSON.stringify(Array.from(res2), null, 2);
+/*
 var rs = m.reduce((total, el) => {
 	if (!res2[el]) {
 		total[el] = true;
 	}
 }, {});
 console.log("rs = ",rs);
+*/
