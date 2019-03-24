@@ -35,9 +35,13 @@ m.map((a, i) => {
 	});
 });
 console.log("res2 = ",res2);
+var resCont = document.getElementsByClassName("res")[0];
+resCont.innerHTML = JSON.stringify(res2, null, 2);
+/*
 var rs = m.reduce((total, el) => {
 	if (!res2[el]) {
 		total[el] = true;
 	}
 }, {});
 console.log("rs = ",rs);
+*/
