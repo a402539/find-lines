@@ -23,6 +23,16 @@ Rule of simplification (for the case of literals): if A.indexOf(B) >= 0 then A t
 
 Referemces on a subject:
 
+Regular expression, From Wikipedia, the free encyclopedia https://en.wikipedia.org/wiki/Regular_expression
+
+Xing, Guangming. "Minimized Thompson NFA" http://people.wku.edu/guangming.xing/thompsonnfa.pdf
+
+Kleene's algorithm, From Wikipedia, the free encyclopedia https://en.wikipedia.org/wiki/Kleene%27s_algorithm
+
+Glushkov's construction algorithm, From Wikipedia, the free encyclopedia https://en.wikipedia.org/wiki/Glushkov%27s_construction_algorithm
+
+Mathematical Foundations of Automata Theory https://www.irif.fr/~jep/PDF/MPRI/MPRI.pdf
+
 Is finding the minimum regular expression an NP-complete problem? https://cstheory.stackexchange.com/questions/1854/is-finding-the-minimum-regular-expression-an-np-complete-problem
 
 Learning DFA from Simple Examples http://web.cs.iastate.edu/~honavar/Papers/parekh-dfa.pdf
@@ -38,3 +48,5 @@ Notes on Regular Expression Simplification https://www.cs.cmu.edu/~fp/courses/97
 Finite Automata and Formal Languages - 2009 — LP4 2009 http://www.cse.chalmers.se/~coquand/AUTOMATA/
 
 Introduction to Automata Theory, Languages, and Computation http://infolab.stanford.edu/~ullman/ialc.html#solutions https://b-ok.org/dl/2481927/732571
+
+Source file src/regexp/syntax/simplify.go https://golang.org/src/regexp/syntax/simplify.go
