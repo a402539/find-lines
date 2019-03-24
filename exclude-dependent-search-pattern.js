@@ -39,12 +39,6 @@ m.map((a, i) => {
 });
 console.log("res2 = ",res2);
 var resCont = document.getElementsByClassName("res")[0];
-resCont.innerHTML = textOutput + "patterns to be excluded: " + JSON.stringify(Array.from(res2), null, 2);
-/*
-var rs = m.reduce((total, el) => {
-	if (!res2[el]) {
-		total[el] = true;
-	}
-}, {});
-console.log("rs = ",rs);
-*/
+resCont.innerHTML = textOutput + 
+	"patterns to be excluded: " + JSON.stringify(Array.from(res2), null, 2) + "<br>" +
+	"patterns list resulted " + JSON.stringify(m.filter(a=>!res2.has(a)));
