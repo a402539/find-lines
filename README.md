@@ -32,3 +32,9 @@ Equivalence of regular expression https://math.stackexchange.com/questions/12311
 Regular Expression Simplificator https://www.dcode.fr/regular-expression-simplificator
 
 Convert Regular Expression to DFA - Compiler Design http://ecomputernotes.com/compiler-design/convert-regular-expression-to-dfa
+
+Notes on Regular Expression Simplification https://www.cs.cmu.edu/~fp/courses/97-212/handouts/regsimp.pdf
+
+Finite Automata and Formal Languages - 2009 — LP4 2009 http://www.cse.chalmers.se/~coquand/AUTOMATA/
+
+Introduction to Automata Theory, Languages, and Computation http://infolab.stanford.edu/~ullman/ialc.html#solutions https://b-ok.org/dl/2481927/732571
