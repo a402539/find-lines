@@ -59,3 +59,7 @@ Finite Automata and Formal Languages - 2009 — LP4 2009 http://www.cse.chalmers
 Introduction to Automata Theory, Languages, and Computation http://infolab.stanford.edu/~ullman/ialc.html#solutions https://b-ok.org/dl/2481927/732571
 
 Source file src/regexp/syntax/simplify.go https://golang.org/src/regexp/syntax/simplify.go
+
+How can one ACTUALLY minimize a regular expression? https://cstheory.stackexchange.com/questions/31630/how-can-one-actually-minimize-a-regular-expression
+
+A collection of recent research results on automata language inclusion testing http://languageinclusion.org/doku.php?id=start
